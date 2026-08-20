@@ -1,0 +1,45 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose*.yml
+Dockerfile
+
+# Testing
+tests/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Docs
+docs/
+*.md
+
+# Uploads (mounted as volume)
+uploads/
+
+# Logs
+logs/
+
+# Environment (injected at runtime)
+.env
+
+# Misc
+.DS_Store
+Thumbs.db
+*.sql
+*.bak
+Makefile
